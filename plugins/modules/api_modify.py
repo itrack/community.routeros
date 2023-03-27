@@ -158,7 +158,7 @@ options:
         - routing pimsm interface-template
         - routing rip
         - routing ripng
-        - routing tables
+        - routing table
         - snmp
         - snmp community
         - system clock

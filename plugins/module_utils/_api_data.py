@@ -2273,7 +2273,7 @@ PATHS = {
             'update-timer': KeyInfo(default='30s'),
         },
     ),
-    ('routing', 'tables'): APIData(
+    ('routing', 'table'): APIData(
         single_value=True,
         fully_understood=True,
         fields={
