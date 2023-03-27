@@ -2273,6 +2273,14 @@ PATHS = {
             'update-timer': KeyInfo(default='30s'),
         },
     ),
+    ('routing', 'table'): APIData(
+        single_value=True,
+        fully_understood=True,
+        fields={
+            'name': KeyInfo(required=True),
+            'fib': KeyInfo(default=''),
+        },
+    ),
     ('snmp', ): APIData(
         single_value=True,
         fully_understood=True,
