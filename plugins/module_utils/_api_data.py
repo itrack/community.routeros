@@ -2277,8 +2277,10 @@ PATHS = {
         single_value=True,
         fully_understood=True,
         fields={
+            'comment': KeyInfo(can_disable=True, remove_value=''),
+            'enabled': KeyInfo(default=True),
             'name': KeyInfo(required=True),
-            'fib': KeyInfo(default=''),
+            'fib': KeyInfo(default='no'),
         },
     ),
     ('snmp', ): APIData(
